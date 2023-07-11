@@ -65,6 +65,6 @@ jobs:
           app-name: 'akshatresume'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FFC4D0B04EBE4EC5A5350043B0D9D0BA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5363D9AA5AF3402087E7565226468687 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
